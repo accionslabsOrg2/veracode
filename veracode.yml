@@ -12,7 +12,7 @@ veracode_static_scan:
     branches_to_exclude:
       - default_branch
   pull_request:
-    trigger: false
+    trigger: true
     action:
       - opened
       - synchronize
